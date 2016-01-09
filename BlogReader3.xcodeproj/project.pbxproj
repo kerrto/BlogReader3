@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB993C141C40DA5200E72AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C131C40DA5200E72AC5 /* main.m */; };
+		AB993C171C40DA5200E72AC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C161C40DA5200E72AC5 /* AppDelegate.m */; };
+		AB993C191C40DA5200E72AC5 /* BlogReader3-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */; };
+		AB993C1B1C40DA5200E72AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */; };
+		AB993C1E1C40DA5200E72AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */; };
+		AB993C291C40DA5200E72AC5 /* BlogReader3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C281C40DA5200E72AC5 /* BlogReader3Tests.m */; };
+		AB993C341C40DA5300E72AC5 /* BlogReader3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C331C40DA5300E72AC5 /* BlogReader3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB993C251C40DA5200E72AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB993C071C40DA5200E72AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB993C0E1C40DA5200E72AC5;
+			remoteInfo = BlogReader3;
+		};
+		AB993C301C40DA5300E72AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB993C071C40DA5200E72AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB993C0E1C40DA5200E72AC5;
+			remoteInfo = BlogReader3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB993C0F1C40DA5200E72AC5 /* BlogReader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB993C131C40DA5200E72AC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB993C151C40DA5200E72AC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB993C161C40DA5200E72AC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogReader3-Prefix.pch"; sourceTree = "<group>"; };
+		AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB993C1D1C40DA5200E72AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB993C1F1C40DA5200E72AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB993C241C40DA5200E72AC5 /* BlogReader3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReader3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB993C281C40DA5200E72AC5 /* BlogReader3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader3Tests.m; sourceTree = "<group>"; };
+		AB993C2A1C40DA5200E72AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB993C2F1C40DA5300E72AC5 /* BlogReader3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReader3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB993C331C40DA5300E72AC5 /* BlogReader3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader3UITests.m; sourceTree = "<group>"; };
+		AB993C351C40DA5300E72AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB993C0C1C40DA5200E72AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C211C40DA5200E72AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C2C1C40DA5200E72AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB993C061C40DA5200E72AC5 = {
+			isa = PBXGroup;
+			children = (
+				AB993C111C40DA5200E72AC5 /* BlogReader3 */,
+				AB993C271C40DA5200E72AC5 /* BlogReader3Tests */,
+				AB993C321C40DA5300E72AC5 /* BlogReader3UITests */,
+				AB993C101C40DA5200E72AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB993C101C40DA5200E72AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB993C0F1C40DA5200E72AC5 /* BlogReader3.app */,
+				AB993C241C40DA5200E72AC5 /* BlogReader3Tests.xctest */,
+				AB993C2F1C40DA5300E72AC5 /* BlogReader3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB993C111C40DA5200E72AC5 /* BlogReader3 */ = {
+			isa = PBXGroup;
+			children = (
+				AB993C151C40DA5200E72AC5 /* AppDelegate.h */,
+				AB993C161C40DA5200E72AC5 /* AppDelegate.m */,
+				AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */,
+				AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */,
+				AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */,
+				AB993C1F1C40DA5200E72AC5 /* Info.plist */,
+				AB993C121C40DA5200E72AC5 /* Supporting Files */,
+			);
+			path = BlogReader3;
+			sourceTree = "<group>";
+		};
+		AB993C121C40DA5200E72AC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB993C131C40DA5200E72AC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB993C271C40DA5200E72AC5 /* BlogReader3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB993C281C40DA5200E72AC5 /* BlogReader3Tests.m */,
+				AB993C2A1C40DA5200E72AC5 /* Info.plist */,
+			);
+			path = BlogReader3Tests;
+			sourceTree = "<group>";
+		};
+		AB993C321C40DA5300E72AC5 /* BlogReader3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB993C331C40DA5300E72AC5 /* BlogReader3UITests.m */,
+				AB993C351C40DA5300E72AC5 /* Info.plist */,
+			);
+			path = BlogReader3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB993C0E1C40DA5200E72AC5 /* BlogReader3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB993C381C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3" */;
+			buildPhases = (
+				AB993C0B1C40DA5200E72AC5 /* Sources */,
+				AB993C0C1C40DA5200E72AC5 /* Frameworks */,
+				AB993C0D1C40DA5200E72AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogReader3;
+			productName = BlogReader3;
+			productReference = AB993C0F1C40DA5200E72AC5 /* BlogReader3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB993C231C40DA5200E72AC5 /* BlogReader3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB993C3B1C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3Tests" */;
+			buildPhases = (
+				AB993C201C40DA5200E72AC5 /* Sources */,
+				AB993C211C40DA5200E72AC5 /* Frameworks */,
+				AB993C221C40DA5200E72AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB993C261C40DA5200E72AC5 /* PBXTargetDependency */,
+			);
+			name = BlogReader3Tests;
+			productName = BlogReader3Tests;
+			productReference = AB993C241C40DA5200E72AC5 /* BlogReader3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB993C2E1C40DA5200E72AC5 /* BlogReader3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB993C3E1C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3UITests" */;
+			buildPhases = (
+				AB993C2B1C40DA5200E72AC5 /* Sources */,
+				AB993C2C1C40DA5200E72AC5 /* Frameworks */,
+				AB993C2D1C40DA5200E72AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB993C311C40DA5300E72AC5 /* PBXTargetDependency */,
+			);
+			name = BlogReader3UITests;
+			productName = BlogReader3UITests;
+			productReference = AB993C2F1C40DA5300E72AC5 /* BlogReader3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB993C071C40DA5200E72AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kerry Toonen";
+				TargetAttributes = {
+					AB993C0E1C40DA5200E72AC5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9QSWA6BJVQ;
+					};
+					AB993C231C40DA5200E72AC5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9QSWA6BJVQ;
+						TestTargetID = AB993C0E1C40DA5200E72AC5;
+					};
+					AB993C2E1C40DA5200E72AC5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9QSWA6BJVQ;
+						TestTargetID = AB993C0E1C40DA5200E72AC5;
+					};
+				};
+			};
+			buildConfigurationList = AB993C0A1C40DA5200E72AC5 /* Build configuration list for PBXProject "BlogReader3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB993C061C40DA5200E72AC5;
+			productRefGroup = AB993C101C40DA5200E72AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB993C0E1C40DA5200E72AC5 /* BlogReader3 */,
+				AB993C231C40DA5200E72AC5 /* BlogReader3Tests */,
+				AB993C2E1C40DA5200E72AC5 /* BlogReader3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB993C0D1C40DA5200E72AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB993C1E1C40DA5200E72AC5 /* LaunchScreen.storyboard in Resources */,
+				AB993C1B1C40DA5200E72AC5 /* Assets.xcassets in Resources */,
+				AB993C191C40DA5200E72AC5 /* BlogReader3-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C221C40DA5200E72AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C2D1C40DA5200E72AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB993C0B1C40DA5200E72AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB993C171C40DA5200E72AC5 /* AppDelegate.m in Sources */,
+				AB993C141C40DA5200E72AC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C201C40DA5200E72AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB993C291C40DA5200E72AC5 /* BlogReader3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB993C2B1C40DA5200E72AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB993C341C40DA5300E72AC5 /* BlogReader3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB993C261C40DA5200E72AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB993C0E1C40DA5200E72AC5 /* BlogReader3 */;
+			targetProxy = AB993C251C40DA5200E72AC5 /* PBXContainerItemProxy */;
+		};
+		AB993C311C40DA5300E72AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB993C0E1C40DA5200E72AC5 /* BlogReader3 */;
+			targetProxy = AB993C301C40DA5300E72AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB993C1D1C40DA5200E72AC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB993C361C40DA5300E72AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB993C371C40DA5300E72AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB993C391C40DA5300E72AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlogReader3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB993C3A1C40DA5300E72AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlogReader3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB993C3C1C40DA5300E72AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlogReader3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogReader3.app/BlogReader3";
+			};
+			name = Debug;
+		};
+		AB993C3D1C40DA5300E72AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlogReader3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogReader3.app/BlogReader3";
+			};
+			name = Release;
+		};
+		AB993C3F1C40DA5300E72AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlogReader3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlogReader3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB993C401C40DA5300E72AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlogReader3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kerrytoonen.BlogReader3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlogReader3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB993C0A1C40DA5200E72AC5 /* Build configuration list for PBXProject "BlogReader3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB993C361C40DA5300E72AC5 /* Debug */,
+				AB993C371C40DA5300E72AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB993C381C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB993C391C40DA5300E72AC5 /* Debug */,
+				AB993C3A1C40DA5300E72AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB993C3B1C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB993C3C1C40DA5300E72AC5 /* Debug */,
+				AB993C3D1C40DA5300E72AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB993C3E1C40DA5300E72AC5 /* Build configuration list for PBXNativeTarget "BlogReader3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB993C3F1C40DA5300E72AC5 /* Debug */,
+				AB993C401C40DA5300E72AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB993C071C40DA5200E72AC5 /* Project object */;
+}
