@@ -11,9 +11,13 @@
 		AB993C171C40DA5200E72AC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C161C40DA5200E72AC5 /* AppDelegate.m */; };
 		AB993C191C40DA5200E72AC5 /* BlogReader3-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */; };
 		AB993C1B1C40DA5200E72AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */; };
-		AB993C1E1C40DA5200E72AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */; };
 		AB993C291C40DA5200E72AC5 /* BlogReader3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C281C40DA5200E72AC5 /* BlogReader3Tests.m */; };
 		AB993C341C40DA5300E72AC5 /* BlogReader3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C331C40DA5300E72AC5 /* BlogReader3UITests.m */; };
+		AB993C441C40DAFF00E72AC5 /* Main Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB993C431C40DAFF00E72AC5 /* Main Storyboard.storyboard */; };
+		AB993C471C40DC6D00E72AC5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C461C40DC6D00E72AC5 /* TableViewController.m */; };
+		AB993C4A1C417C2600E72AC5 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C491C417C2600E72AC5 /* BlogPost.m */; };
+		AB993C4C1C4192B400E72AC5 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = AB993C4B1C4192B400E72AC5 /* treehouse.png */; };
+		AB993C8E1C41B1D500E72AC5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C8D1C41B1D500E72AC5 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		AB993C161C40DA5200E72AC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogReader3-Prefix.pch"; sourceTree = "<group>"; };
 		AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB993C1D1C40DA5200E72AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB993C1F1C40DA5200E72AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB993C241C40DA5200E72AC5 /* BlogReader3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReader3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB993C281C40DA5200E72AC5 /* BlogReader3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader3Tests.m; sourceTree = "<group>"; };
@@ -48,6 +51,14 @@
 		AB993C2F1C40DA5300E72AC5 /* BlogReader3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReader3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB993C331C40DA5300E72AC5 /* BlogReader3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader3UITests.m; sourceTree = "<group>"; };
 		AB993C351C40DA5300E72AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB993C431C40DAFF00E72AC5 /* Main Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Main Storyboard.storyboard"; path = "../Main Storyboard.storyboard"; sourceTree = "<group>"; };
+		AB993C451C40DC6D00E72AC5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		AB993C461C40DC6D00E72AC5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		AB993C481C417C2600E72AC5 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		AB993C491C417C2600E72AC5 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		AB993C4B1C4192B400E72AC5 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
+		AB993C8C1C41B1D500E72AC5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AB993C8D1C41B1D500E72AC5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +111,16 @@
 			children = (
 				AB993C151C40DA5200E72AC5 /* AppDelegate.h */,
 				AB993C161C40DA5200E72AC5 /* AppDelegate.m */,
+				AB993C451C40DC6D00E72AC5 /* TableViewController.h */,
+				AB993C461C40DC6D00E72AC5 /* TableViewController.m */,
 				AB993C181C40DA5200E72AC5 /* BlogReader3-Prefix.pch */,
 				AB993C1A1C40DA5200E72AC5 /* Assets.xcassets */,
-				AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */,
+				AB993C481C417C2600E72AC5 /* BlogPost.h */,
+				AB993C491C417C2600E72AC5 /* BlogPost.m */,
 				AB993C1F1C40DA5200E72AC5 /* Info.plist */,
 				AB993C121C40DA5200E72AC5 /* Supporting Files */,
+				AB993C8C1C41B1D500E72AC5 /* WebViewController.h */,
+				AB993C8D1C41B1D500E72AC5 /* WebViewController.m */,
 			);
 			path = BlogReader3;
 			sourceTree = "<group>";
@@ -112,6 +128,8 @@
 		AB993C121C40DA5200E72AC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB993C4B1C4192B400E72AC5 /* treehouse.png */,
+				AB993C431C40DAFF00E72AC5 /* Main Storyboard.storyboard */,
 				AB993C131C40DA5200E72AC5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -241,9 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB993C1E1C40DA5200E72AC5 /* LaunchScreen.storyboard in Resources */,
+				AB993C4C1C4192B400E72AC5 /* treehouse.png in Resources */,
 				AB993C1B1C40DA5200E72AC5 /* Assets.xcassets in Resources */,
 				AB993C191C40DA5200E72AC5 /* BlogReader3-Prefix.pch in Resources */,
+				AB993C441C40DAFF00E72AC5 /* Main Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB993C171C40DA5200E72AC5 /* AppDelegate.m in Sources */,
+				AB993C8E1C41B1D500E72AC5 /* WebViewController.m in Sources */,
+				AB993C471C40DC6D00E72AC5 /* TableViewController.m in Sources */,
 				AB993C141C40DA5200E72AC5 /* main.m in Sources */,
+				AB993C4A1C417C2600E72AC5 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +325,6 @@
 			targetProxy = AB993C301C40DA5300E72AC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AB993C1C1C40DA5200E72AC5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB993C1D1C40DA5200E72AC5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB993C361C40DA5300E72AC5 /* Debug */ = {
